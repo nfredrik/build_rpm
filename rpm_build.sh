@@ -7,6 +7,8 @@
 # md5?
 # installera köra i rpm:en?
 
+# exempel på rpm :    unireg_pgm-d20120114-svn012345-b0023.rpm ???
+
 set -x 
 
 export WORKSPACE=$1
