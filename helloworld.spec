@@ -1,7 +1,14 @@
 Name            : helloworld
 Summary         : Hello world application
-Version         : 0.0.1
-Release         : 0.1
+
+#The version line should be set to the version of the software being packaged. 
+#The version will also be included in the package label, and the package filename. 
+Version         : %{?TAGNAME}
+
+#The release is a number that is used to represent the number of times the software,
+#at the present version, has been packaged. You can think of it as the package's version number.
+# The release is also part of the package label and package filename. 
+Release         : %{?BUILD_NUMBER}
 
 Group		: Applications/File
 License		: (c) Douglas Gibbons
